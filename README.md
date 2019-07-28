@@ -14,9 +14,6 @@ Since this is done periodically (say every 30 seconds), the communication gap is
 
 The second feature of our project is to Predict Natural Disasters. This is done by capturing animal movements in a zoo as it is common knowledge that animals have a tendency to show erratic behaviour a few days before a calamity. This is done through live cctv surveilance of animals in zoos in terms of them coming in and out of their respective caves and then storing that information into a database. This data is analysed to observe anomalies and give the concerned authorities time to inform and prepare the public about the for a natural disaster.
 
-
-YouTube: https://www.youtube.com/watch?v=2GOf97N8iLM&t=34s
-
 To run: python3 frontend.py
 
 Note -> A additional file credentials.py has to be created by the person using this program,wherein the details of the access of the access 
