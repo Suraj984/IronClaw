@@ -1,20 +1,15 @@
 # IBM CALL FOR CODE 2019
-The Challenge - Predict,Detect or Manage Natural Disasters
+Disaster management is one of the biggest problems economies face today, since natural calamities not only cause a lot of damage to development and property but they also cost a lot of lives. So, it thereby costs a lot of money to the economy to minimise all the damage caused by these natural disasters. Unfortunately, most of the technologies available today usually trigger a warning to the areas affected and send rescue teams only after the natural calamity has occured, therby within that short period of time lots of lives could have been affected and a lot of damage could have occured to developments and property. 
 
+So our goal was come up with a project, which could predict the possibilty of a natural disaster like earthquakes and immediately trigger a warning to the areas which could be affected using historic data and today's data and also minimise the damage faced by the people who live in rural areas (who might not have much access to technology) unlike how people who live in the urban areas have.
 
+In our project, we've used machine learning, weather APIs and the core technology is Python.
 
-Usually, it takes a lot of time for the disaster management authorities to be notified about any natural disaster that might have taken place. 
+First, we collect the maximum amount of historic data as possible and come up with a curve of various constraints like latitude, altitude, temperature, humidity and many more which could indicate the favourable conditions for an earthquake. Then, this curve is compared with today's weather data. If there exists some correlation between these two curves, and if there is a possibilty of a natural disaster, it immediately triggers a warning to the areas which could be affected using the coordinates of latitude and longitude, otherwise it just goes on scanning the data as usual.
 
-For example: https://www.usgs.gov/faqs/how-fast-does-earthquake-information-get-posted-web-site-get-sent-out-earthquake-notification?qt-news_science_products=0#qt-news_science_products
-suggests that it might take upto 20 minutes in some areas to know whether there has been an earthquaqe in that part of the world. In this project we aim to provide a solution to the same.
-
-The live feed provided by the government owned surveilance tools (cameras/satelite data) are periodically scanned frame wise. The frames captured are checked for any anomalies. If any serious event is detected, the concerned authorities are immediately pinged to look into the situation, and take the required action.
-
-Since this is done periodically (say every 30 seconds), the communication gap is bridged between the concerned authorities and the line of action and quick relief can be brought to the affected area.
-
-The second feature of our project is to Predict Natural Disasters. This is done by capturing animal movements in a zoo as it is common knowledge that animals have a tendency to show erratic behaviour a few days before a calamity. This is done through live cctv surveilance of animals in zoos in terms of them coming in and out of their respective caves and then storing that information into a database. This data is analysed to observe anomalies and give the concerned authorities time to inform and prepare the public about the for a natural disaster.
+With this, the economy's GDP does not get affected too much, since every year billions of dollars are spent on disaster management. Also, many people who could be affected massively by these natural calamities can be saved.
 
 To run: python3 frontend.py
 
-Note -> A additional file credentials.py has to be created by the person using this program,wherein the details of the access of the access 
-Username, Password, Database name, driver and server name has to be provided. We are not providing our own details for security reasons. 
+## ADDITIONAL FILES TO BE DOWLOADED FROM THE BELOW DRIVE LINK DUE TO SIZE LIMIT
+https://drive.google.com/drive/folders/1wDrsfgQLO4g86HGElzTBI5vTWL7t0NgJ?usp=sharing
